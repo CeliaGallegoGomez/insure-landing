@@ -4,11 +4,61 @@
     <meta charset="UTF-8" />
     <!-- PON UN FAVICON!!! -->
     <link rel="icon" type="image/svg+xml" href="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CAMBIA EL TITLE!!! -->
     <title>Vite Template</title>
   </head>
   <body>
+    <nav class="menu">
+      <img src="assets/images/logo.svg" alt="" />
+      <img class="menu__icon" src="assets/images/icon-hamburger.svg" alt="" />
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a href="#">HOW WE WORK</a>
+        </li>
+        <li class="menu__item">
+          <a href="#">BLOG</a>
+        </li>
+        <li class="menu__item">
+          <a href="#">ACCOUNT</a>
+        </li>
+        <li class="menu__item">
+          <a class="button button__nav" href="#">VIEW PLANS</a>
+        </li>
+      </ul>
+    </nav>
+    <header class="header">
+      <picture>
+        <source
+          media="(min-width:1240px)"
+          srcset="./assets/images/image-intro-desktop.jpg"
+        />
+        <source
+          media="(min-width:360px)"
+          srcset="./assets/images/image-intro-mobilejpg"
+        />
+        <img src="assets/images/image-intro-mobile.jpg" alt="" />
+      </picture>
+      <h1 class="title title__header">Humanizing your insurance.</h1>
+      <p class="text text__header">
+        Get your life insurance coverage easier and faster. We blend our
+        expertise and technology to help you find the plan that’s right for you.
+        Ensure you and your loved ones are protected.
+      </p>
+      <a class="button button__header" href="">VIEW PLANS</a>
+    </header>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>

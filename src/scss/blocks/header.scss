@@ -2,14 +2,20 @@
     &__container {
         background-color:#2D2641 ;
         width: 375px;
-        height: 500px;
-        padding-top: 93px;
+        height: 635px;
+        position: relative;
+        padding-bottom: 93px;
+    }
+
+    &__image {
+        position: absolute;
+        left: 250px;
     }
     &__container--text {
         height: 314px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         padding-left: 24px;
         padding-right: 24px;

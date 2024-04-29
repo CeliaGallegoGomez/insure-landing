@@ -1,0 +1,20 @@
+@use '../mixins/hover.scss' as *;
+
+.menu {
+    width: 375px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 31px;
+    margin-bottom: 31px;
+
+    &__logo {
+        width: 112px;
+        height: 18px;
+    }
+    &__list {
+        display: none;
+    }
+}

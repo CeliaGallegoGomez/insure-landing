@@ -1,0 +1,14 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__header {
+        font-family:'Karla', sans-serif ;
+        color: white;
+        font-size: 13px;
+        border: 1px solid white;
+        width: 146px;
+        height: 40px;
+    }
+}

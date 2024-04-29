@@ -18,11 +18,11 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CAMBIA EL TITLE!!! -->
-    <title>Vite Template</title>
+    <title>Insure landing</title>
   </head>
   <body>
     <nav class="menu">
-      <img src="assets/images/logo.svg" alt="" />
+      <img class="menu__logo" src="assets/images/logo.svg" alt="" />
       <img class="menu__icon" src="assets/images/icon-hamburger.svg" alt="" />
       <ul class="menu__list">
         <li class="menu__item">
@@ -46,18 +46,20 @@
           srcset="./assets/images/image-intro-desktop.jpg"
         />
         <source
-          media="(min-width:360px)"
+          media="(min-width:400px)"
           srcset="./assets/images/image-intro-mobilejpg"
         />
         <img src="assets/images/image-intro-mobile.jpg" alt="" />
       </picture>
-      <h1 class="title title__header">Humanizing your insurance.</h1>
-      <p class="text text__header">
-        Get your life insurance coverage easier and faster. We blend our
-        expertise and technology to help you find the plan that’s right for you.
-        Ensure you and your loved ones are protected.
-      </p>
-      <a class="button button__header" href="">VIEW PLANS</a>
+      <div class="header__container">
+        <div class="header__container--text"><h1 class="title title__header">Humanizing your insurance.</h1>
+          <p class="text text__header">
+            Get your life insurance coverage easier and faster. We blend our
+            expertise and technology to help you find the plan that’s right for you.
+            Ensure you and your loved ones are protected.
+          </p>
+          <a class="button button__header" href="">VIEW PLANS</a></div>
+      </div>
     </header>
     <script type="module" src="./js/index.js"></script>
   </body>

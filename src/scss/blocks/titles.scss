@@ -1,3 +1,10 @@
 .title {
   font-family: "Dm Serif Display";
+  &__header {
+    color: white;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -0.67px;
+    font-weight: 500;
+  }
 }

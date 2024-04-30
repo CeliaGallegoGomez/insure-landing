@@ -1,0 +1,15 @@
+.cards{
+    display: flex;
+    flex-direction: column;
+    height: 1031px;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    height: 250px;
+    justify-content: space-between;
+}
